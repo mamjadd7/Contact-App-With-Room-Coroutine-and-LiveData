@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="all_screen_design">
+        <item name="background">@color/bg_black</item>
+        <item name="android:padding">10dp</item>
+    </style>
+
+    <style name="title_font_design">
+        <item name="fontFamily">@font/poppins_bold</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="font_design" parent="title_font_design">
+        <item name="fontFamily">@font/poppins_semi_bold</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:layout_marginStart">8dp</item>
+        <item name="android:layout_marginEnd">8dp</item>
+        <item name="android:padding">8dp</item>
+        <item name="android:maxLines">1</item>
+    </style>
+
+    <style name="editTextStyle" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@color/white</item>
+        <item name="colorControlNormal">#fff</item>
+        <item name="colorControlActivated">@color/white</item>
+        <item name="cursorColor">@color/white</item>
+        <item name="hintTextColor">@color/white</item>
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="boxStrokeColor">@color/text_input_layout_stroke_color</item>
+
+        <item name="android:textColorHint">@color/text_color_hint</item>
+    </style>
+
+
+    <style name="LoginTextInputLayoutStyle" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense">
+        <item name="boxStrokeColor">#fff</item>
+        <item name="boxStrokeWidth">1dp</item>
+    </style>
+
+    <style name="lsCustomAlertDialog" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:windowBackground">@drawable/custom_dialogbox_bg</item>
+        <item name="android:layout_width">wrap_content</item>
+    </style>
+
+</resources>

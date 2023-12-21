@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Contact App With Room And LiveData</string>
+
+    <string name="first_name">First name</string>
+    <string name="last_name">Last name</string>
+    <string name="email">Email</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="exit_app_confirmation">Exit App Confirmation</string>
+    <string name="rate_us">Rate Us</string>
+    <string name="cancel">Cancel</string>
+    <string name="exit">Exit</string>
+
+
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+
+    <color name="bg_black">#171717</color>
+    <color name="flotbtn_bg">#5614CC</color>
+    <color name="text_color_hint">#DDDAE1</color>
+    <color name="ed_bg_color">#403D3D</color>
+    <color name="btn_bg_color">#A19A9A</color>
+    <color name="text_input_layout_stroke_color">#FFFFFF</color>
+    <color name="mtrl_textinput_default_box_stroke_color" tools:override="true">#fff</color>
+
+
+</resources>
